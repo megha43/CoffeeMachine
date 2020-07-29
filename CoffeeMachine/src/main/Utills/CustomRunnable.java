@@ -19,7 +19,7 @@ public class CustomRunnable implements Runnable{
 
 		try {
 			machine.MakeBeverage(name, parameter);
-			System.out.println("Beverage Server "+ name);
+			//System.out.println("Beverage Server "+ name);
 
 		} catch (InsuficientException e) {
 			// TODO Auto-generated catch block

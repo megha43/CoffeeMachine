@@ -99,10 +99,10 @@ public class CoffeeMachine  {
 			}
 
 		}
-
-		//Thread.sleep(10000);
+//Making coffeee
+		Thread.sleep(1000);
 		out.Unlock();
-		System.out.println(Thread.currentThread().getName() + "Beverage "+ name +" Servered." );
+		System.out.println(Thread.currentThread().getName() + " Beverage "+ name +" Servered." );
 	}
 
 
